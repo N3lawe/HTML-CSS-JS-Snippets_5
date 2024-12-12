@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- css file -->
+    <link rel="stylesheet" href="css/grid_and_list_view_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+    />
+    <!-- js animetion -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <!-- Font Awesome icon -->
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>grid and list view</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="links">
+        <ul>
+          <li data-view="list-view" class="li-list active">
+            <i class="fas fa-th-list"></i>
+            List View
+          </li>
+          <li data-view="grid-view" class="li-grid">
+            <i class="fas fa-th-large"></i>
+            Grid View
+          </li>
+        </ul>
+      </div>
+      <div class="view_main">
+        <div class="view_wrap list-view">
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/tomato.png" alt="tomato" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Tomato</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/chilli.png" alt="chilli" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Chilli</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/carrot.png" alt="carrot" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Carrot</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/onion.png" alt="onion" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Onion</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/potato.png" alt="potato" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Potato</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+        </div>
+        <div class="view_wrap grid-view">
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/apple.png" alt="apple" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Apple</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/banana.png" alt="banana" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Banana</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/grapes.png" alt="grapes" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Grapes</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/pineapple.png" alt="pineapple" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Pineapple</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+          <div class="view_item">
+            <div class="vi_left">
+              <img src="image/strawberry.png" alt="strawberry" />
+            </div>
+            <div class="vi_right">
+              <p class="title">Strawberry</p>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam impedit, veniam! Voluptate a impedit animi!
+              </p>
+              <div class="btn">View More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- js file -->
+    <script src="js/grid_and_list_view.js"></script>
+  </body>
+</html>
